@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "em">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible", content="ie-edge">
+    <title>Arrays and Objects</title>
+<head>
+<script>
+    let student={
+        Name:'Ankit',
+        course: "Btech",
+        college: "BPPIMT",
+        age: 19,
+    }
+//    console.log(student);
+//    console.log(student['name']);
+    
+    
+    let arr = [23, 43, 1, 7, 8, 76, 54];
+//    console.log(arr);
+//    console.log(arr[2]);
+//    sorti = arr.sort();
+    console.log(arr.sort());
+    anp = arr.sort(function(a, b){return(a - b)});
+    document.getElementById('demo').innerHTML = arr;
+    console.log(anp);
+    
+    </script>
+<body>
+    <h1>This is the content of my website.</h1>
+    <p id="demo">hello</p>
+</body>
+</html>

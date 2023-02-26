@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "em">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible", content="ie-edge">
+    <title>Forms</title>
+</head>
+    
+<body>
+    <h1>Here is my first form created with the help of html.</h1>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Class: <input type="number" name="myclass">
+        </div>
+        <br>
+        <div>
+            Email:<input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date:<input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Age:<input type="age" name="myAge">
+        </div>
+        <br>
+        <div>
+            Are you Eligible? <input type="checkbox" name="Eligibility">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender"> Others<input type="radio" name="myGender">
+        </div>
+        <br>
+        <label for="car">Car</label>
+        <div>
+            <select name="myCar" id="car">
+            <option value="Mer">Mercedes</option>
+            <option value="Swf">Swift</option>
+            <option value="NOT" selected>Not Selected</option>  
+            <option value="City">Honda City</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Sumit Now">
+            <input type="Reset" value="Reset Now">
+        </div>
+        <br>
+    </form>
+</body>
+</html>

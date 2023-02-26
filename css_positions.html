@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: khaki;
+            height: 3444px;
+        }
+        /* CSS Position: static (default), relative, absolute, fixed, sticky */
+    .box{
+        display: inline-block;
+        border: 2px solid red;
+        width: 150px;
+        height: 150px;
+        margin: 2px;
+    }
+    #box4{
+        /* relative: Positions the element relative to its normal positon and will leave a gap at its normal position*/
+        /* position: relative; */
+        
+        /* absolute: Positions the element relative to the positon of its first parent*/
+        /* position: absolute; */
+
+        /* top: 34px;
+        left: 134px; */
+
+        /* fixed: Positions the element relative to the browser window; */
+        /* position: fixed;
+        right: 4px;
+        bottom: 2px */
+
+        /* sticky: Positions the element relative to the users scroll position */
+        position: sticky;
+        top: 3px;
+
+
+    }
+        #box1{
+            position: relative;
+            left: 12px;
+            top: 34px;
+        }
+        #box2{
+            position: absolute;
+            right: 23px;
+            top: 231px;
+        }
+        #box3{
+            position: fixed;
+            bottom: 2px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">Relative position</div>
+        <div class="box" id="box2">Absolute position</div>
+        <div class="box" id="box3">Fixed Position</div>
+        <div class="box" id="box4">Sticky Position</div>
+    </div>
+</body>
+</html>

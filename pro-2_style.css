@@ -1,0 +1,13 @@
+/*Css Reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+body{
+    background-color: black;
+}

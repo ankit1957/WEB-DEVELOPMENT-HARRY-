@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "em">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible", content="ie-edge">
+    <title>Document</title>
+<head>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+/*            background: url("https://images.unsplash.com/photo-1591154669695-5f2a8d20c089?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80") no-repeat center center/cover; */
+        }
+        .navigation{
+            display: flex;
+            padding: 12px 12px;
+            margin: 12px 12px;
+            cursor: pointer;
+        }
+        li{
+            list-style: none;
+            padding: 12px 12px;
+            margin: 12px 12px;
+            display: flex;
+        }
+        section{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+/*            border: 2px solid red;*/
+            height: 233px;
+            
+        }
+        header::before{
+            content: "";
+            background: url("https://source.unsplash.com/collection/190727/1600x900") no-repeat center center/cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+/*
+            top: 0;
+            left: 0;
+*/
+            z-index: -1;
+            opacity: 0.5;
+        }
+        h1{
+            font-size: 3em;
+        }
+    </style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>This is a Heading</h1>
+        <p>Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident error ratione doloribus sed dolorum,
+                ipsum cumque reprehenderit dignissimos architecto veniam optio sint aliquam consectetur corrupti vero
+                similique velit. Possimus eum consequatur delectus quia magni.</p>
+    </section>
+    <hr>
+    
+</body>
+</html>
